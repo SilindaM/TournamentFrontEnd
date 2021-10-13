@@ -1,1 +1,29 @@
-<p>player-details works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12" >
+            <div class="card" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="..." alt="...">
+                  </div>
+                  <div class="col-md-6" >
+                  
+                    <div class="card-body" *ngIf="player" >
+                      <h5 class="card-title">
+                        {{player.id}}
+                     </h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    
+                      {{player.name}}  
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  
+                        {{player.name}}  </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<p></p>
+<div class="btn btn-primary">Previous</div> &nbsp;
+<div class="btn btn-primary">Next</div>

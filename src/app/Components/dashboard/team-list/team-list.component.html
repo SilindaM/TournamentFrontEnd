@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-3" *ngFor="let p of team" >
+      <div class="card text-center" (click)="Navigate('playerdetails',p.id)">
+        <div class="card-header ">
+          {{p.name}} 
+        </div>
+<img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{p.location}}</h5> 
+         </div>
+      </div>
+    </div>
+</div>
+<p></p>
